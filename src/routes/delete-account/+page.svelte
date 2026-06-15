@@ -72,7 +72,7 @@
     align-items:center;
     justify-content:center;
     padding:20px;
-    background:linear-gradient(135deg,#20559b,#11ba66,#1e3c72);
+    background:linear-gradient(135deg,#c4bc26,#ddd43a,#9ea517);
     font-family:Arial,sans-serif;
   }
 
