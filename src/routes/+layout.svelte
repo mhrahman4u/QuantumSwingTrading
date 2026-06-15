@@ -352,15 +352,31 @@ onMount(() => {
   const unsubscribe = auth.onAuthStateChanged(async (user) => {
     const currentPath = $page.url.pathname;
 
-    // 🔒 Not logged
-    if (!user) {
-      loading = false;
 
-      if (!currentPath.startsWith("/auth/")) {
-        goto("/auth/signup", { replaceState: true });
-      }
-      return;
-    }
+    const publicRoutes = [
+  "/privacy-policy",
+  "/terms",
+  "/about"
+];
+
+const isPublicRoute = publicRoutes.some(route =>
+  currentPath.startsWith(route)
+);
+    // 🔒 Not logged
+   
+if (!user) {
+  loading = false;
+
+  if (
+    !currentPath.startsWith("/auth/") &&
+    !isPublicRoute
+  ) {
+    goto("/auth/signup", { replaceState: true });
+  }
+
+  return;
+}
+    
 
     // 🔥 SUPER ADMIN (instant redirect)
     if (user.uid === superAdminUid) {
@@ -396,14 +412,18 @@ onMount(() => {
     }
 
     // ✅ User
-    else {
-      if ((currentPath as string) === "/page") {
-  goto("/page/home", { replaceState: true });
+   else {
+  if (currentPath as string === "/page") {
+    goto("/page/home", { replaceState: true });
+  }
+
+  if (
+    !currentPath.startsWith("/page") &&
+    !isPublicRoute
+  ) {
+    goto("/page/home", { replaceState: true });
+  }
 }
-      if (!currentPath.startsWith("/page")) {
-        goto("/page/home", { replaceState: true });
-      }
-    }
 
     loading = false;
   });
