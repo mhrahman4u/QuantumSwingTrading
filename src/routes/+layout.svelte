@@ -355,8 +355,9 @@ onMount(() => {
 
     const publicRoutes = [
   "/privacy-policy",
-  "/terms",
-  "/about"
+  "/terms-and-conditions",
+  "/about",
+  "/contact"
 ];
 
 const isPublicRoute = publicRoutes.some(route =>
