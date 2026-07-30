@@ -4,7 +4,7 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "app.vercel.project_3x4ij.twa",
+  "applicationId": "com.swingtrading.app",
   "variantName": "release",
   "elements": [
     {

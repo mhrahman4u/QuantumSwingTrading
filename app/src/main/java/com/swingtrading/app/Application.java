@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package app.vercel.project_3x4ij.twa;
+package com.swingtrading.app;
 
 
 

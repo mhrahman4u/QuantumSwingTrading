@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "app.vercel.project_3x4ij.twa.app-mergeReleaseResources-23:/values-ca/values-ca.xml",
+            "outputFile": "com.swingtrading.app-mergeReleaseResources-23:/values-ca/values-ca.xml",
             "map": [
                 {
                     "source": "C:\\Users\\abhis\\.gradle\\caches\\8.11.1\\transforms\\be57bd43967b699c12a0f6b8bd2f21c6\\transformed\\browser-1.9.0-alpha04\\res\\values-ca\\values-ca.xml",

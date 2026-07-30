@@ -1,4 +1,4 @@
-package app.vercel.project_3x4ij.twa;
+package com.swingtrading.app;
 
 
 

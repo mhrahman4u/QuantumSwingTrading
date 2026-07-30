@@ -33,8 +33,8 @@ export default defineConfig({
 
       manifest: {
         id: '/',
-        name: 'Swing trading',
-        short_name: 'Swing trading',
+        name: 'Swing Trading Community',
+        short_name: 'Swing Trading Community',
         description: 'My PWA App',
 
         start_url: '/', // 🔥 FIXED

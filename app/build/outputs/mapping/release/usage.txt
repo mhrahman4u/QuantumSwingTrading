@@ -7668,16 +7668,6 @@ androidx.viewpager.widget.ViewPager$SavedState
 androidx.viewpager.widget.ViewPager$SimpleOnPageChangeListener
 androidx.viewpager.widget.ViewPager$ViewPositionComparator
 androidx.viewpager.widget.ViewPager
-app.vercel.project_3x4ij.twa.R$array
-app.vercel.project_3x4ij.twa.R$bool
-app.vercel.project_3x4ij.twa.R$color
-app.vercel.project_3x4ij.twa.R$drawable
-app.vercel.project_3x4ij.twa.R$integer
-app.vercel.project_3x4ij.twa.R$mipmap
-app.vercel.project_3x4ij.twa.R$raw
-app.vercel.project_3x4ij.twa.R$string
-app.vercel.project_3x4ij.twa.R$xml
-app.vercel.project_3x4ij.twa.R
 com.google.androidbrowserhelper.BuildConfig
 com.google.androidbrowserhelper.R$drawable:
     private void <init>()
@@ -10287,6 +10277,16 @@ com.google.j2objc.annotations.WeakOuter
 com.google.thirdparty.publicsuffix.PublicSuffixPatterns
 com.google.thirdparty.publicsuffix.PublicSuffixType
 com.google.thirdparty.publicsuffix.TrieParser
+com.swingtrading.app.R$array
+com.swingtrading.app.R$bool
+com.swingtrading.app.R$color
+com.swingtrading.app.R$drawable
+com.swingtrading.app.R$integer
+com.swingtrading.app.R$mipmap
+com.swingtrading.app.R$raw
+com.swingtrading.app.R$string
+com.swingtrading.app.R$xml
+com.swingtrading.app.R
 kotlin.ArrayIntrinsicsKt
 kotlin.BuilderInference
 kotlin.CharCodeJVMKt

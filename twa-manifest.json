@@ -1,4 +1,4 @@
- {
+{
   "packageId": "com.swingtrading.app",
   "host": "project-3x4ij.vercel.app",
   "name": "Swing trading",
@@ -19,8 +19,8 @@
     "path": "C:\\Users\\abhis\\webapp\\android.keystore",
     "alias": "android"
   },
-  "appVersionName": "1",
-  "appVersionCode": 1,
+  "appVersionName": "2",
+  "appVersionCode": 2,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://project-3x4ij.vercel.app/manifest.webmanifest",
@@ -45,5 +45,5 @@
     "window-controls-overlay",
     "standalone"
   ],
-  "appVersion": "1"
+  "appVersion": "2"
 }

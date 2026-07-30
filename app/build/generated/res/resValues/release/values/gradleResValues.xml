@@ -40,7 +40,7 @@
     <!-- Value from default config. -->
     <string name="orientation" translatable="false">portrait</string>
     <!-- Value from default config. -->
-    <string name="providerAuthority" translatable="false">app.vercel.project_3x4ij.twa.fileprovider</string>
+    <string name="providerAuthority" translatable="false">com.swingtrading.app.fileprovider</string>
     <!-- Value from default config. -->
     <string name="webManifestUrl" translatable="false">https://project-3x4ij.vercel.app/manifest.webmanifest</string>
 

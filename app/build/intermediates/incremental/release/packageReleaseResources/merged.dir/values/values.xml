@@ -40,6 +40,6 @@
     <string name="launchUrl" translatable="false">https://project-3x4ij.vercel.app/page/home</string>
     <string name="launcherName" translatable="false">Swingtrade</string>
     <string name="orientation" translatable="false">portrait</string>
-    <string name="providerAuthority" translatable="false">app.vercel.project_3x4ij.twa.fileprovider</string>
+    <string name="providerAuthority" translatable="false">com.swingtrading.app.fileprovider</string>
     <string name="webManifestUrl" translatable="false">https://project-3x4ij.vercel.app/manifest.webmanifest</string>
 </resources>
